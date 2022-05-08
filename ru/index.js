@@ -36,9 +36,7 @@ $(document).ready(async function() {
     function aboutPage() {
         let link = window.location.pathname;
 
-        if (link === "/ru/") {
-            window.history.replaceState("", "", "/ru/about");
-        }
+        window.history.replaceState("", "", "/ru/about");
 
         document.title = "About FizCoin"
         $(".blur-bg").addClass("blur-bg-blurred");
@@ -67,9 +65,7 @@ $(document).ready(async function() {
     function launchApp() {
         let link = window.location.pathname;
 
-        if (link === "/ru/") {
-            window.history.replaceState("", "", "app");
-        }
+        window.history.replaceState("", "", "/ru/app");
 
         document.title = "FizCoin App"
         $(".blur-bg").addClass("blur-bg-blurred");
@@ -99,9 +95,7 @@ $(document).ready(async function() {
     function governance() {
         let link = window.location.pathname;
 
-        if (link === "/ru/") {
-            window.history.replaceState("", "", "governance");
-        }
+        window.history.replaceState("", "", "/ru/governance");
 
         document.title = "Governance"
         $(".blur-bg").addClass("blur-bg-blurred");
@@ -130,9 +124,7 @@ $(document).ready(async function() {
     function buySell() {
         let link = window.location.pathname;
 
-        if (link === "/ru/") {
-            window.history.replaceState("", "", "buy-sell");
-        }
+        window.history.replaceState("", "", "/ru/buy-sell");
 
         document.title = "Buy/Sell FIZ"
         $(".blur-bg").addClass("blur-bg-blurred");
