@@ -34,8 +34,6 @@ $(document).ready(async function() {
     })
 
     function aboutPage() {
-        let link = window.location.pathname;
-
         window.history.replaceState("", "", "/ru/about");
 
         document.title = "About FizCoin"
@@ -63,8 +61,6 @@ $(document).ready(async function() {
     })
 
     function launchApp() {
-        let link = window.location.pathname;
-
         window.history.replaceState("", "", "/ru/app");
 
         document.title = "FizCoin App"
@@ -93,8 +89,6 @@ $(document).ready(async function() {
     })
 
     function governance() {
-        let link = window.location.pathname;
-
         window.history.replaceState("", "", "/ru/governance");
 
         document.title = "Governance"
@@ -122,8 +116,6 @@ $(document).ready(async function() {
     })
 
     function buySell() {
-        let link = window.location.pathname;
-
         window.history.replaceState("", "", "/ru/buy-sell");
 
         document.title = "Buy/Sell FIZ"
@@ -150,17 +142,21 @@ $(document).ready(async function() {
         buySell();
     })
 
-    switch (link) {
+    switch (window.location.pathname) {
         case ("/ru/about" || "/ru/about/" || "/ru/about/index.html"):
+            console.log("about")
             aboutPage();
             break;
         case ("/ru/buy-sell" || "/ru/buy-sell/" || "/ru/buy-sell/index.html"):
+            console.log("buy-sell")
             buySell();
             break;
         case ("/ru/governance" || "/ru/governance/" || "/ru/governance/index.html"):
+            console.log("governance")
             governance();
             break;
         case ("/ru/app" || "/ru/app/" || "/ru/app/index.html"):
+            console.log("app")
             launchApp();
             break;
     }
