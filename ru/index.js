@@ -142,22 +142,22 @@ $(document).ready(async function() {
         buySell();
     })
 
-    if (window.location.pathname === "/ru/about" || "/ru/about/" || "/ru/about/index.html") {
+    if (window.location.pathname === ("/ru/about" || "/ru/about/" || "/ru/about/index.html")) {
         console.log("about");
         aboutPage();
     }
-    if (window.location.pathname ===  "/ru/buy-sell" || "/ru/buy-sell/" || "/ru/buy-sell/index.html") {
+    if (window.location.pathname ===  ("/ru/buy-sell" || "/ru/buy-sell/" || "/ru/buy-sell/index.html")) {
         console.log("buy-sell");
         buySell();
     }
-    if (window.location.pathname ===  "/ru/governance" || "/ru/governance/" || "/ru/governance/index.html") {
+    if (window.location.pathname ===  ("/ru/governance" || "/ru/governance/" || "/ru/governance/index.html")) {
         console.log("governance");
         governance();
     }
-    if (window.location.pathname ===  "/ru/app" || "/ru/app/" || "/ru/app/index.html") {
+    if (window.location.pathname ===  ("/ru/app" || "/ru/app/" || "/ru/app/index.html")) {
         console.log("app");
         launchApp();
     }
-    
+
 });
 
