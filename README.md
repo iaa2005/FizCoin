@@ -1,0 +1,2 @@
+# FizCoin
+FizCoin
