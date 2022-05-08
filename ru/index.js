@@ -151,16 +151,16 @@ $(document).ready(async function() {
     })
 
     switch (link) {
-        case ("/ru/about/"):
+        case ("/ru/about" || "/ru/about/" || "/ru/about/index.html"):
             aboutPage();
             break;
-        case ("/ru/buy-sell/"):
+        case ("/ru/buy-sell" || "/ru/buy-sell/" || "/ru/buy-sell/index.html"):
             buySell();
             break;
-        case ("/ru/governance/"):
+        case ("/ru/governance" || "/ru/governance/" || "/ru/governance/index.html"):
             governance();
             break;
-        case ("/ru/app/"):
+        case ("/ru/app" || "/ru/app/" || "/ru/app/index.html"):
             launchApp();
             break;
     }
