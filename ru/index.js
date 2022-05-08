@@ -1,7 +1,7 @@
 $(document).ready(async function() {
     let link = window.location.pathname;
 
-    if (link === "/ru/") {
+    if (link.substring(0, 4) === "/ru/") {
         $("#text-page").load("/ru/text.html")
     } else if (link === "/") {
         $("#text-page").load("/text.html")
