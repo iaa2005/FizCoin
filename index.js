@@ -1,6 +1,6 @@
 $(document).ready(async function() {
     function mainPage() {
-        window.history.replaceState("", "", "/ru");
+        window.history.replaceState("", "", "/");
 
         document.title = "FizCoin"
         $(".blur-bg").removeClass("blur-bg-blurred");
@@ -24,9 +24,9 @@ $(document).ready(async function() {
     })
 
     function aboutPage() {
-        window.history.replaceState("", "", "/ru/about");
+        window.history.replaceState("", "", "/about");
 
-        document.title = "Про FizCoin"
+        document.title = "About FizCoin"
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
@@ -52,7 +52,7 @@ $(document).ready(async function() {
     })
 
     // function launchApp() {
-    //     window.history.replaceState("", "", "/ru/app");
+    //     window.history.replaceState("", "", "/app");
 
     //     document.title = "FizCoin App"
     //     $(".blur-bg").addClass("blur-bg-blurred");
@@ -80,9 +80,9 @@ $(document).ready(async function() {
     // })
 
     function governance() {
-        window.history.replaceState("", "", "/ru/governance");
+        window.history.replaceState("", "", "/governance");
 
-        document.title = "FizCoin Управление"
+        document.title = "Governance"
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
@@ -108,9 +108,9 @@ $(document).ready(async function() {
     })
 
     function buySell() {
-        window.history.replaceState("", "", "/ru/buy-sell");
+        window.history.replaceState("", "", "/buy-sell");
 
-        document.title = "Купить/Продать FizCoin"
+        document.title = "Buy/Sell FIZ"
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
@@ -145,15 +145,15 @@ $(document).ready(async function() {
     }
 
     load().then(function () {
-        if (link === "/ru/about" || link === "/ru/about/" || link === "/ru/about/index.html") {
+        if (link === "/about" || link === "/about/" || link === "/about/index.html") {
             console.log("about");
             aboutPage();
         }
-        if (link === "/ru/buy-sell" || link === "/ru/buy-sell/" || link === "/ru/buy-sell/index.html") {
+        if (link === "/buy-sell" || link === "/buy-sell/" || link === "/buy-sell/index.html") {
             console.log("buy-sell");
             buySell();
         }
-        if (link === "/ru/governance" || link === "/ru/governance/" || link === "/ru/governance/index.html") {
+        if (link === "/governance" || link === "/governance/" || link === "/governance/index.html") {
             console.log("governance");
             governance();
         }

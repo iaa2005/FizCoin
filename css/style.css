@@ -117,13 +117,6 @@ header {
 a {
     margin: 0;
 }
-.clickable {
-    transition: 0.2s;
-}
-.clickable:hover {
-    cursor: pointer;
-    color: #389EA0;
-}
 .header-logo {
     height: 32px;
     /*width: 21px;*/
@@ -335,6 +328,22 @@ li {
     font-size: 18px;
     line-height: 23px;
 }
+/*.clickable {*/
+/*    transition: 0.2s;*/
+/*}*/
+/*.clickable:hover {*/
+/*    cursor: pointer;*/
+/*    color: #389EA0;*/
+/*}*/
+.center-height .clickable {
+    transition: 0.2s;
+    color: white;
+}
+.center-height .clickable:hover {
+    cursor: pointer;
+    color: #389EA0;
+}
+
 @keyframes opacity-anim {
     0% {
         opacity: 0;
