@@ -146,7 +146,7 @@ $(document).ready(async function() {
         console.log("about");
         aboutPage();
     }
-    if (window.location.pathname === "/ru/app" || window.location.pathname === "/ru/app/" || window.location.pathname === "/ru/app/index.html") {
+    if (window.location.pathname === "/ru/buy-sell" || window.location.pathname === "/ru/buy-sell/" || window.location.pathname === "/ru/buy-sell/index.html") {
         console.log("buy-sell");
         buySell();
     }
@@ -154,7 +154,7 @@ $(document).ready(async function() {
         console.log("governance");
         governance();
     }
-    if (window.location.pathname === "/ru" || window.location.pathname === "/ru/" || window.location.pathname === "/ru/index.html") {
+    if (window.location.pathname === "/ru/app" || window.location.pathname === "/ru/app/" || window.location.pathname === "/ru/app/index.html") {
         console.log("app");
         launchApp();
     }
