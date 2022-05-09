@@ -137,11 +137,7 @@ $(document).ready(async function() {
     let link = window.location.pathname;
 
     async function load() {
-        if (link.substring(0, 4) === "/ru/") {
-            await $("#text-page").load("/ru/text.html")
-        } else if (link === "/") {
-            await $("#text-page").load("/text.html")
-        }
+        await $("#text-page").load("text.html")
     }
 
     load().then(function () {
