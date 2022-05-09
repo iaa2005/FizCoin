@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfed8841-db4f-4e9b-a4d0-4288b5644f05" name="Default Changelist" comment="">
+    <list default="true" id="cfed8841-db4f-4e9b-a4d0-4288b5644f05" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/buy-sell/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/buy-sell/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/governance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/governance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ru/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/text.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +69,41 @@
       <option name="presentableId" value="Default" />
       <updated>1651300092482</updated>
       <workItem from="1651300093583" duration="49138000" />
-      <workItem from="1651559865499" duration="57544000" />
+      <workItem from="1651559865499" duration="58217000" />
     </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1652124145245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652124145245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-">
+      <created>1652124480634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652124480634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
