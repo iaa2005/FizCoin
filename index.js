@@ -137,7 +137,7 @@ $(document).ready(async function() {
     let link = window.location.pathname;
 
     async function load() {
-        await $("#text-page").load("text.html")
+        await $("#text-page").load("/text.html")
     }
 
     load().then(function () {
