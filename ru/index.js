@@ -1,12 +1,4 @@
 $(document).ready(async function() {
-    let link = window.location.pathname;
-
-    if (link.substring(0, 4) === "/ru/") {
-        $("#text-page").load("/ru/text.html")
-    } else if (link === "/") {
-        $("#text-page").load("/text.html")
-    }
-
     function mainPage() {
         window.history.replaceState("", "", "/ru");
 
@@ -142,22 +134,33 @@ $(document).ready(async function() {
         buySell();
     })
 
-    if (window.location.pathname === "/ru/about" || window.location.pathname === "/ru/about/" || window.location.pathname === "/ru/about/index.html") {
-        console.log("about");
-        aboutPage();
-    }
-    if (window.location.pathname === "/ru/buy-sell" || window.location.pathname === "/ru/buy-sell/" || window.location.pathname === "/ru/buy-sell/index.html") {
-        console.log("buy-sell");
-        buySell();
-    }
-    if (window.location.pathname === "/ru/governance" || window.location.pathname === "/ru/governance/" || window.location.pathname === "/ru/governance/index.html") {
-        console.log("governance");
-        governance();
-    }
-    if (window.location.pathname === "/ru/app" || window.location.pathname === "/ru/app/" || window.location.pathname === "/ru/app/index.html") {
-        console.log("app");
-        launchApp();
+    let link = window.location.pathname;
+
+    async function load() {
+        if (link.substring(0, 4) === "/ru/") {
+            await $("#text-page").load("/ru/text.html")
+        } else if (link === "/") {
+            await $("#text-page").load("/text.html")
+        }
     }
 
+    load().then(function () {
+        if (link === "/ru/about" || link === "/ru/about/" || link === "/ru/about/index.html") {
+            console.log("about");
+            aboutPage();
+        }
+        if (link === "/ru/buy-sell" || link === "/ru/buy-sell/" || link === "/ru/buy-sell/index.html") {
+            console.log("buy-sell");
+            buySell();
+        }
+        if (link === "/ru/governance" || link === "/ru/governance/" || link === "/ru/governance/index.html") {
+            console.log("governance");
+            governance();
+        }
+        if (link === "/ru/app" || link === "/ru/app/" || link === "/ru/app/index.html") {
+            console.log("app");
+            launchApp();
+        }
+    });
 });
 
