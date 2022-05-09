@@ -41,7 +41,7 @@ $(document).ready(async function() {
             $("#get-fiz-text").removeClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
-        }, 100);
+        }, 200);
 
         $("#get-fiz-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
@@ -64,13 +64,13 @@ $(document).ready(async function() {
         setTimeout(function () {
             $("#get-fiz-text").addClass("visible");
         }, 100);
-        
+
         setTimeout(function () {
             $("#get-fiz-text").addClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
-        }, 100)
+        }, 200)
 
         $("#about-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
@@ -91,14 +91,16 @@ $(document).ready(async function() {
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
-        $("#governance-text").addClass("visible");
+        setTimeout(function () {
+            $("#governance-text").addClass("visible");
+        }, 100);
 
         setTimeout(function () {
             $("#get-fiz-text").removeClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
             $("#governance-text").addClass("opacity-1");
-        }, 100)
+        }, 200)
 
         $("#get-fiz-text").removeClass("visible");
         $("#about-text").removeClass("visible");
@@ -118,14 +120,16 @@ $(document).ready(async function() {
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
-        $("#buy-sell-text").addClass("visible");
+        setTimeout(function () {
+            $("#buy-sell-text").addClass("visible");
+        }, 100);
 
         setTimeout(function () {
             $("#get-fiz-text").removeClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
             $("#buy-sell-text").addClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
-        }, 100)
+        }, 200)
 
         $("#get-fiz-text").removeClass("visible");
         $("#about-text").removeClass("visible");
