@@ -17,8 +17,6 @@ $(document).ready(async function() {
             $("#governance-text").removeClass("visible");
             $("#buy-sell-text").removeClass("visible");
         }, 800)
-
-        // $(".block-expended").css("height", "100vh");
     }
 
     document.getElementById("fizcoin").addEventListener("click", function () {
@@ -75,8 +73,6 @@ $(document).ready(async function() {
         $("#about-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
         $("#buy-sell-text").removeClass("visible");
-
-        // $(".block-expended").css("height", "0vh");
     }
 
 
@@ -106,7 +102,6 @@ $(document).ready(async function() {
         $("#about-text").removeClass("visible");
         $("#buy-sell-text").removeClass("visible");
 
-        // $(".block-expended").css("height", "0vh");
     }
 
     document.getElementById("governance").addEventListener("click", function () {
@@ -134,8 +129,6 @@ $(document).ready(async function() {
         $("#get-fiz-text").removeClass("visible");
         $("#about-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
-
-        // $(".block-expended").css("height", "0vh");
     }
 
     document.getElementById("buy-sell").addEventListener("click", function () {

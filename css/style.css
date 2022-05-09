@@ -237,9 +237,6 @@ footer {
     min-height: 100vh;
     transition: opacity 1s;
 }
-.block-expended {
-    height: 100vh;
-}
 .visible {
     display: block;
 }
