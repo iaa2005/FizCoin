@@ -32,14 +32,16 @@ $(document).ready(async function() {
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
-        $("#about-text").addClass("visible");
+        setTimeout(function () {
+            $("#about-text").addClass("visible");
+        }, 100);
 
         setTimeout(function () {
             $("#about-text").addClass("opacity-1");
             $("#get-fiz-text").removeClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
-        }, 100)
+        }, 100);
 
         $("#get-fiz-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
@@ -59,8 +61,10 @@ $(document).ready(async function() {
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
-        $("#get-fiz-text").addClass("visible");
-
+        setTimeout(function () {
+            $("#get-fiz-text").addClass("visible");
+        }, 100);
+        
         setTimeout(function () {
             $("#get-fiz-text").addClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
