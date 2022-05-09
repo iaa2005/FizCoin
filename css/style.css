@@ -219,8 +219,9 @@ footer {
     max-width: 1280px;
 }
 .themes-text {
-    display: block;
-    height: 100vh;
+    /* display: block; */
+    display: grid;
+    min-height: 100vh;
 }
 .text-page-in {
     font-family: 'Roboto Mono', monospace;
