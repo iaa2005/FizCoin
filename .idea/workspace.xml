@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cfed8841-db4f-4e9b-a4d0-4288b5644f05" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sambrero.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sambrero.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,7 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1651300092482</updated>
       <workItem from="1651300093583" duration="49138000" />
-      <workItem from="1651559865499" duration="59459000" />
+      <workItem from="1651559865499" duration="60329000" />
+      <workItem from="1652247612382" duration="47000" />
+      <workItem from="1652247661888" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1652124145245</created>
@@ -99,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652125193117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-">
+      <created>1652125792542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652125792542</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-">
+      <created>1652126004075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652126004075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-" />
