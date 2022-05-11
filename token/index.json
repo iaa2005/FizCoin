@@ -1,5 +1,5 @@
 {
-    "name": "FizCoin Token",
+    "name": "FizCoin Token List",
     "timestamp": "2022-05-10T00:00:00+00:00",
     "version": {
         "major": 1,
@@ -9,14 +9,14 @@
     "tags": {},
     "logoURI": "https://fizcoin.xyz/assets/images/android-chrome-512x512.png",
     "keywords": [
-        "audited",
-        "verified",
-        "special tokens"
+        "polygon",
+        "fizcoin",
+        "tokens"
     ],
     "tokens": [
         {
             "chainId": 137,
-            "address": "0x170b75d55554B4EEb17bb1E062b2cEF0355fcEae",
+            "address": "0x170b75d55554b4eeb17bb1e062b2cef0355fceae",
             "name": "PhysTech",
             "symbol": "FTL",
             "decimals": 18,
