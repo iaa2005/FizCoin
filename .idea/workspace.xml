@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfed8841-db4f-4e9b-a4d0-4288b5644f05" name="Default Changelist" comment="-">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sambrero.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sambrero.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/token/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <workItem from="1651300093583" duration="49138000" />
       <workItem from="1651559865499" duration="60329000" />
       <workItem from="1652247612382" duration="47000" />
-      <workItem from="1652247661888" duration="311000" />
+      <workItem from="1652247661888" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1652124145245</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652126004075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-">
+      <created>1652248117915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652248117915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
