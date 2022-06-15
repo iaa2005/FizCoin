@@ -16,9 +16,9 @@
     "tokens": [
         {
             "chainId": 137,
-            "address": "0x170b75d55554b4eeb17bb1e062b2cef0355fceae",
-            "name": "PhysTech",
-            "symbol": "FTL",
+            "address": "0xbdd8daef3c5d5a707cf524ad12823edc51522140",
+            "name": "FizCoin",
+            "symbol": "FIZ",
             "decimals": 18,
             "logoURI": "https://fizcoin.xyz/assets/images/android-chrome-512x512.png"
         }
