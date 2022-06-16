@@ -200,13 +200,20 @@
     <pre>
         You can buy or sell the FIZ token on decentralized exchanges. FizCoin is available on these exchanges:
     </pre>
-    <form
-            action="https://app.uniswap.org/#/swap?outputCurrency=0xbdD8DaEF3C5d5a707cf524Ad12823eDC51522140&chain=polygon"
+    <form action="https://app.uniswap.org/#/swap?outputCurrency=0xbdD8DaEF3C5d5a707cf524Ad12823eDC51522140&chain=polygon"
             style="margin-left: auto; margin-left: auto;">
         <button class="button-ex">
             <img src="/assets/images/uniswap.webp" style="max-width: 250px; padding: 45px;">
         </button>
     </form>
+    <h2>Add Polygon network and FizCoin to Metamask</h2>
+    <p>To add the Polygon network and FizCoin token to metamask, as well as a token to Uniswap, follow the instructions:</p>
+    <ol>
+        <li>Add Polygon Network to Metamask</li>
+        <li><button style="background: transparent; border: none;" class="text-link" onclick="addTokenFunction()"><a class="text-link">Add</a></button> FizCoin token to wallet</li>
+        <li>Use <a class="text-link" href="https://tokenlists.org/token-list?url=https://fizcoin.xyz/token">FizCoin token list</a> in
+            <a class="text-link" href="https://app.uniswap.org/#/swap?chain=polygon&lng=en-US">Uniswap</a></li>
+    </ol>
 </div>
 <div class="text-page-in" id="governance-text">
     <h1>
@@ -231,3 +238,36 @@
         marketplace, where you can buy NFT for ETH or MATIC (now Polygon).
     </p>
 </div>
+<script type="text/javascript">
+    const tokenAddress = '0xbdD8DaEF3C5d5a707cf524Ad12823eDC51522140';
+    const tokenSymbol = 'FIZ';
+    const tokenDecimals = 18;
+    const tokenImage = 'https://fizcoin.xyz/assets/images/tokenlist-coin.png';
+
+    async function addTokenFunction() {
+
+        try {
+
+            const wasAdded = await ethereum.request({
+                method: 'wallet_watchAsset',
+                params: {
+                    type: 'ERC20',
+                    options: {
+                        address: tokenAddress,
+                        symbol: tokenSymbol,
+                        decimals: tokenDecimals,
+                        image: tokenImage,
+                    },
+                },
+            });
+
+            // if (wasAdded) {
+            //     console.log('Thanks for your interest!');
+            // } else {
+            //     console.log('HelloWorld Coin has not been added');
+            // }
+        } catch (error) {
+            console.log(error);
+        }
+    }
+</script>
