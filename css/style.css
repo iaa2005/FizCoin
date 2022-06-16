@@ -355,6 +355,11 @@ li {
     color: white;
     cursor: pointer;
 }
+.button-ex img {
+    max-width: 250px;
+    padding: 45px;
+}
+
 @keyframes opacity-anim {
     0% {
         opacity: 0;
