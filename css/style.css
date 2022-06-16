@@ -369,3 +369,33 @@ li {
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 840px) {
+    .themes-text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .bg-words {
+        margin-top: 120px;
+        height: calc(100vh - 200px);
+    }
+    .header-in {
+        grid-auto-flow: row;
+        gap: 20px;
+    }
+    .footer-in-1 {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .inline-text {
+        display: flex;
+        color: #adadad;
+        flex-direction: column;
+    }
+}
