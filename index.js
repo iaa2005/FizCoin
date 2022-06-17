@@ -51,7 +51,7 @@ $(document).ready(async function() {
         aboutPage();
     })
 
-    function launchApp() {
+    function terms() {
         window.history.replaceState("", "", "/terms");
 
         document.title = "FizCoin | Terms"
@@ -76,7 +76,7 @@ $(document).ready(async function() {
 
 
     document.getElementById("terms").addEventListener("click", function () {
-        launchApp();
+        terms();
     })
 
     function governance() {
@@ -154,8 +154,8 @@ $(document).ready(async function() {
             governance();
         }
         if (link === "/terms" || link === "/terms/" || link === "/terms/index.html") {
-            console.log("app");
-            launchApp();
+            console.log("terms");
+            terms();
         }
     });
 });

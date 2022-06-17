@@ -347,14 +347,16 @@ li {
     font-weight: 300;
     font-size: 18px;
     line-height: 23px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
-/*.clickable {*/
-/*    transition: 0.2s;*/
-/*}*/
-/*.clickable:hover {*/
-/*    cursor: pointer;*/
-/*    color: #389EA0;*/
-/*}*/
+ol li ul li {
+    margin-left: -20px;
+    list-style-type: disc;
+}
+#terms-text ol li {
+    list-style-type: decimal-leading-zero;
+}
 .center-height .clickable {
     transition: 0.2s;
     color: white;
