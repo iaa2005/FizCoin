@@ -350,10 +350,10 @@ li {
     margin-top: 25px;
     margin-left: 20px;
 }
-#terms-text ol li {
+ol li {
     list-style-type: decimal-leading-zero;
 }
-#terms-text ol li ul li {
+ol li ul li {
     margin-left: -20px;
     list-style-type: disc;
 }
