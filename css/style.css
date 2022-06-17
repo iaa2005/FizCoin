@@ -353,7 +353,7 @@ li {
 #terms-text ol li {
     list-style-type: decimal-leading-zero;
 }
-ol li ul li {
+#terms-text ol li ul li {
     margin-left: -20px;
     list-style-type: disc;
 }
@@ -406,9 +406,9 @@ ol li ul li {
 }
 
 
-tbody, .add-token-text, p, pre {
+tbody, .add-token-text, p, pre, li {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 @media screen and (max-width: 840px) {
