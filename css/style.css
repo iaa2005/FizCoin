@@ -350,12 +350,12 @@ li {
     margin-top: 25px;
     margin-left: 20px;
 }
+#terms-text ol li {
+    list-style-type: decimal-leading-zero;
+}
 ol li ul li {
     margin-left: -20px;
     list-style-type: disc;
-}
-#terms-text ol li {
-    list-style-type: decimal-leading-zero;
 }
 .center-height .clickable {
     transition: 0.2s;
