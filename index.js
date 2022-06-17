@@ -7,13 +7,13 @@ $(document).ready(async function() {
         // window.scrollTo(0, 0)
 
         $("#about-text").removeClass("opacity-1");
-        // $("#get-fiz-text").removeClass("opacity-1");
+        $("#terms-text").removeClass("opacity-1");
         $("#buy-sell-text").removeClass("opacity-1");
         $("#governance-text").removeClass("opacity-1");
 
         setTimeout(function () {
             $("#about-text").removeClass("visible");
-            // $("#get-fiz-text").removeClass("visible");
+            $("#terms-text").removeClass("visible");
             $("#governance-text").removeClass("visible");
             $("#buy-sell-text").removeClass("visible");
         }, 800)
@@ -36,12 +36,12 @@ $(document).ready(async function() {
 
         setTimeout(function () {
             $("#about-text").addClass("opacity-1");
-            // $("#get-fiz-text").removeClass("opacity-1");
+            $("#terms-text").removeClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
         }, 200);
 
-        // $("#get-fiz-text").removeClass("visible");
+        $("#terms-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
         $("#buy-sell-text").removeClass("visible");
 
@@ -51,38 +51,38 @@ $(document).ready(async function() {
         aboutPage();
     })
 
-    // function launchApp() {
-    //     window.history.replaceState("", "", "/app");
+    function launchApp() {
+        window.history.replaceState("", "", "/terms");
 
-    //     document.title = "FizCoin App"
-    //     $(".blur-bg").addClass("blur-bg-blurred");
-    //     window.scrollTo(0, 0)
+        document.title = "FizCoin | Terms"
+        $(".blur-bg").addClass("blur-bg-blurred");
+        window.scrollTo(0, 0)
 
-    //     setTimeout(function () {
-    //         $("#get-fiz-text").addClass("visible");
-    //     }, 100);
+        setTimeout(function () {
+            $("#terms-text").addClass("visible");
+        }, 100);
 
-    //     setTimeout(function () {
-    //         $("#get-fiz-text").addClass("opacity-1");
-    //         $("#about-text").removeClass("opacity-1");
-    //         $("#buy-sell-text").removeClass("opacity-1");
-    //         $("#governance-text").removeClass("opacity-1");
-    //     }, 200)
+        setTimeout(function () {
+            $("#terms-text").addClass("opacity-1");
+            $("#about-text").removeClass("opacity-1");
+            $("#buy-sell-text").removeClass("opacity-1");
+            $("#governance-text").removeClass("opacity-1");
+        }, 200)
 
-    //     $("#about-text").removeClass("visible");
-    //     $("#governance-text").removeClass("visible");
-    //     $("#buy-sell-text").removeClass("visible");
-    // }
+        $("#about-text").removeClass("visible");
+        $("#governance-text").removeClass("visible");
+        $("#buy-sell-text").removeClass("visible");
+    }
 
 
-    // document.getElementById("get-fiz").addEventListener("click", function () {
-    //     launchApp();
-    // })
+    document.getElementById("terms").addEventListener("click", function () {
+        launchApp();
+    })
 
     function governance() {
         window.history.replaceState("", "", "/governance");
 
-        document.title = "Governance"
+        document.title = "FizCoin | Governance"
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
@@ -91,13 +91,13 @@ $(document).ready(async function() {
         }, 100);
 
         setTimeout(function () {
-            // $("#get-fiz-text").removeClass("opacity-1");
+            $("#terms-text").removeClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
             $("#buy-sell-text").removeClass("opacity-1");
             $("#governance-text").addClass("opacity-1");
         }, 200)
 
-        // $("#get-fiz-text").removeClass("visible");
+        $("#terms-text").removeClass("visible");
         $("#about-text").removeClass("visible");
         $("#buy-sell-text").removeClass("visible");
 
@@ -110,7 +110,7 @@ $(document).ready(async function() {
     function buySell() {
         window.history.replaceState("", "", "/buy-sell");
 
-        document.title = "Buy/Sell FIZ"
+        document.title = "FizCoin | Buy/Sell FIZ"
         $(".blur-bg").addClass("blur-bg-blurred");
         window.scrollTo(0, 0)
 
@@ -119,13 +119,13 @@ $(document).ready(async function() {
         }, 100);
 
         setTimeout(function () {
-            // $("#get-fiz-text").removeClass("opacity-1");
+            $("#terms-text").removeClass("opacity-1");
             $("#about-text").removeClass("opacity-1");
             $("#buy-sell-text").addClass("opacity-1");
             $("#governance-text").removeClass("opacity-1");
         }, 200)
 
-        // $("#get-fiz-text").removeClass("visible");
+        $("#terms-text").removeClass("visible");
         $("#about-text").removeClass("visible");
         $("#governance-text").removeClass("visible");
     }
@@ -153,10 +153,10 @@ $(document).ready(async function() {
             console.log("governance");
             governance();
         }
-        // if (link === "/ru/app" || link === "/ru/app/" || link === "/ru/app/index.html") {
-        //     console.log("app");
-        //     launchApp();
-        // }
+        if (link === "/terms" || link === "/terms/" || link === "/terms/index.html") {
+            console.log("app");
+            launchApp();
+        }
     });
 });
 

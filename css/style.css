@@ -105,19 +105,22 @@ header {
     grid-auto-flow: column;
     align-items: center;
     display: grid;
-    justify-content: space-between;
-    max-width: 1280px;
+    /*justify-content: space-between;*/
+    max-width: 1220px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
     padding-right: 30px;
+
+    justify-content: start;
+    gap: 40px;
 }
 .center-height {
     /*width: min-content;*/
     display: grid;
     align-items: center;
     grid-auto-flow: column;
-    gap: 12px;
+    gap: 10px;
 }
 a {
     margin: 0;
@@ -360,6 +363,14 @@ li {
     cursor: pointer;
     color: #389EA0;
 }
+.footer-in-1-1 .clickable {
+    transition: 0.2s;
+    color: #adadad;
+}
+.footer-in-1-1 .clickable:hover {
+    cursor: pointer;
+    color: white;
+}
 .add-token-text {
     font-size: 18px;
     letter-spacing: 0.5px;
@@ -426,14 +437,17 @@ tbody, .add-token-text, p, pre {
     }
     .header-in {
         grid-auto-flow: row;
-        gap: 20px;
+        gap: 10px;
+    }
+    footer {
+        gap: 10px;
     }
     .footer-in-1 {
         display: inline-flex;
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
     }
     .button-ex {
         margin-top: 20px;
