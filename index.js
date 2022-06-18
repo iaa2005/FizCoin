@@ -115,18 +115,29 @@ $(document).ready(async function() {
 
     let link = window.location.pathname;
 
-    async function load() {
-        await $("#text-page").load("/text.html")
-        await $(".words-list").load("/words.html")
-        await $(".footer").load("/footer.html")
-    }
+    // async function load() {
+    //     await $("#text-page").load("text.html")
+    //     await $(".words-list").load("words.html")
+    //     await $(".footer").load("footer.html")
+    // }
 
-    load().then(function () {
-        document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
-        document.getElementById("about").addEventListener("click", function () { aboutPage(); })
-        document.getElementById("terms").addEventListener("click", function () { terms(); })
-        document.getElementById("governance").addEventListener("click", function () { governance(); })
-        document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
+    // load().then(function () {
+    await $.get("footer.html", function (data) {
+         $(".footer").append(data)
+    })
+    await $.get("header.html", function (data) {
+        $(".header").append(data)
+    })
+    // await $(".footer").append("footer.html")
+    await $(".words-list").load("words.html")
+    await $("#text-page").load("text.html")
+
+
+    await document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
+    await document.getElementById("about").addEventListener("click", function () { aboutPage(); })
+    await document.getElementById("governance").addEventListener("click", function () { governance(); })
+    await document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
+    await document.getElementById("terms").addEventListener("click", function () { terms(); })
 
         if (link === "/about" || link === "/about/" || link === "/about/index.html") {
             console.log("about");
@@ -144,6 +155,6 @@ $(document).ready(async function() {
             console.log("terms");
             terms();
         }
-    });
+    // });
 });
 
