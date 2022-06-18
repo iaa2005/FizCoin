@@ -115,20 +115,12 @@ $(document).ready(async function() {
 
     let link = window.location.pathname;
 
-    // async function load() {
-    //     await $("#text-page").load("text.html")
-    //     await $(".words-list").load("words.html")
-    //     await $(".footer").load("footer.html")
-    // }
-
-    // load().then(function () {
     await $.get("footer.html", function (data) {
          $(".footer").append(data)
     })
     await $.get("header.html", function (data) {
         $(".header").append(data)
     })
-    // await $(".footer").append("footer.html")
     await $(".words-list").load("words.html")
     await $("#text-page").load("text.html")
 
@@ -139,22 +131,21 @@ $(document).ready(async function() {
     await document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
     await document.getElementById("terms").addEventListener("click", function () { terms(); })
 
-        if (link === "/about" || link === "/about/" || link === "/about/index.html") {
-            console.log("about");
-            aboutPage();
-        }
-        if (link === "/buy-sell" || link === "/buy-sell/" || link === "/buy-sell/index.html") {
-            console.log("buy-sell");
-            buySell();
-        }
-        if (link === "/governance" || link === "/governance/" || link === "/governance/index.html") {
-            console.log("governance");
-            governance();
-        }
-        if (link === "/terms" || link === "/terms/" || link === "/terms/index.html") {
-            console.log("terms");
-            terms();
-        }
-    // });
+    if (link === "/about" || link === "/about/" || link === "/about/index.html") {
+        console.log("about");
+        aboutPage();
+    }
+    if (link === "/buy-sell" || link === "/buy-sell/" || link === "/buy-sell/index.html") {
+        console.log("buy-sell");
+        buySell();
+    }
+    if (link === "/governance" || link === "/governance/" || link === "/governance/index.html") {
+        console.log("governance");
+        governance();
+    }
+    if (link === "/terms" || link === "/terms/" || link === "/terms/index.html") {
+        console.log("terms");
+        terms();
+    }
 });
 
