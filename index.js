@@ -115,14 +115,14 @@ $(document).ready(async function() {
 
     let link = window.location.pathname;
 
-    await $.get("footer.html", function (data) {
+    await $.get("/footer.html", function (data) {
          $(".footer").append(data)
     })
-    await $.get("header.html", function (data) {
+    await $.get("/header.html", function (data) {
         $(".header").append(data)
     })
-    await $(".words-list").load("words.html")
-    await $("#text-page").load("text.html")
+    await $(".words-list").load("/words.html")
+    await $("#text-page").load("/text.html")
 
 
     await document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
