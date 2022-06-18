@@ -19,10 +19,6 @@ $(document).ready(async function() {
         }, 800)
     }
 
-    document.getElementById("fizcoin").addEventListener("click", function () {
-        mainPage();
-    })
-
     function aboutPage() {
         window.history.replaceState("", "", "/about");
 
@@ -47,10 +43,6 @@ $(document).ready(async function() {
 
     }
 
-    document.getElementById("about").addEventListener("click", function () {
-        aboutPage();
-    })
-
     function terms() {
         window.history.replaceState("", "", "/terms");
 
@@ -73,11 +65,6 @@ $(document).ready(async function() {
         $("#governance-text").removeClass("visible");
         $("#buy-sell-text").removeClass("visible");
     }
-
-
-    document.getElementById("terms").addEventListener("click", function () {
-        terms();
-    })
 
     function governance() {
         window.history.replaceState("", "", "/governance");
@@ -103,10 +90,6 @@ $(document).ready(async function() {
 
     }
 
-    document.getElementById("governance").addEventListener("click", function () {
-        governance()
-    })
-
     function buySell() {
         window.history.replaceState("", "", "/buy-sell");
 
@@ -130,10 +113,6 @@ $(document).ready(async function() {
         $("#governance-text").removeClass("visible");
     }
 
-    document.getElementById("buy-sell").addEventListener("click", function () {
-        buySell();
-    })
-
     let link = window.location.pathname;
 
     async function load() {
@@ -143,6 +122,12 @@ $(document).ready(async function() {
     }
 
     load().then(function () {
+        document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
+        document.getElementById("about").addEventListener("click", function () { aboutPage(); })
+        document.getElementById("terms").addEventListener("click", function () { terms(); })
+        document.getElementById("governance").addEventListener("click", function () { governance() })
+        document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
+
         if (link === "/about" || link === "/about/" || link === "/about/index.html") {
             console.log("about");
             aboutPage();
