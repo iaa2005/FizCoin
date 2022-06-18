@@ -138,6 +138,8 @@ $(document).ready(async function() {
 
     async function load() {
         await $("#text-page").load("/text.html")
+        await $(".words-list").load("/words.html")
+        await $("footer").load("/footer.html")
     }
 
     load().then(function () {

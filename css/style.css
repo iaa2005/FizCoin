@@ -126,7 +126,7 @@ a {
     margin: 0;
 }
 .header-logo {
-    height: 28px;
+    height: 18px;
     /*width: 21px;*/
 }
 .uppercase {
@@ -221,6 +221,9 @@ footer {
     animation-iteration-count: infinite;
     animation-name: opacity-anim;
     z-index: 2;
+
+    font-family: "Neue Machina", sans-serif;
+    text-transform: lowercase;
 }
 .text-page {
     /*display: none;*/
@@ -357,22 +360,41 @@ ol li ul li {
     margin-left: -20px;
     list-style-type: disc;
 }
+
 .center-height .clickable {
     transition: 0.2s;
     color: white;
+    display: inline-flex;
+}
+.center-height .clickable svg {
+    transition: 0.2s;
+    stroke: white;
+    margin-top: 4px;
 }
 .center-height .clickable:hover {
     cursor: pointer;
     color: #389EA0;
 }
+.center-height .clickable:hover svg {
+    stroke: #389EA0;
+}
+
 .footer-in-1-1 .clickable {
     transition: 0.2s;
     color: #adadad;
+}
+.footer-in-1-1 .clickable svg{
+    transition: 0.2s;
+    stroke: #adadad;
 }
 .footer-in-1-1 .clickable:hover {
     cursor: pointer;
     color: white;
 }
+.footer-in-1-1 .clickable:hover svg {
+    stroke: white;
+}
+
 .add-token-text {
     font-size: 18px;
     letter-spacing: 0.5px;

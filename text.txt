@@ -1,0 +1,377 @@
+APECOIN DAO GOVERNANCE
+The ApeCoin community governs itself via the ApeCoin DAO, the decentralized governance framework that supports the Ecosystem Fund. The DAO follows a proposal process to vote on how the Ecosystem Fund will be distributed by the APE Foundation to promote a diverse and self-sustaining ecosystem.
+
+This governance guide is an overview of the proposal process. It’s a living document that will evolve and improve with the DAO community’s input.
+
+MEMBERSHIP
+Participating in idea submission, commentary, proposal submission, and voting is restricted to ApeCoin DAO members. Holding ApeCoin is the only requirement for membership in the DAO.
+
+GUIDING VALUES
+Boldness: We don’t shy away from the weird, the hard, or the new.
+Equality: One APE equals one APE.
+Transparency: Processes and decisions are shared openly with the community.
+Collective Responsibility: We leave everything better than we found it.
+Persistence: Success is an ouroboros, not a straight line.
+COMMUNICATION CHANNELS
+The APE Foundation website is the DAO hub, providing an interface to educate DAO members on the governance process and provide easy access to the channels below in order to streamline the DAO’s operation and enhance its utility.
+
+Discourse is the first stop for all proposals. An AIP (Ape Improvement Proposal) Idea is submitted as a post in Discourse and must receive confirmation from a moderator that it complies with DAO-approved guidelines before it appears to the community. ApeCoin holders must go through a wallet authentication process to post ideas or give feedback to ideas via comments.
+
+Snapshot is used for voting. Proposal drafts that have passed their respective approval processes become available for voting on Snapshot. ApeCoin holders must go through a wallet authentication process to vote.
+
+PROPOSAL PROCESS
+ApeCoin DAO is launching its community-led governance via a formal proposal process based on the one implemented and proven out over time by Ethereum’s EIP system.
+
+PROPOSAL CATEGORIES
+There are three main categories an AIP (Ape Improvement Proposal) can fall under: Core, Process, or Informational. Core proposals have two subcategories, Brand Decision and Ecosystem Fund Allocation. Proposals that are being resubmitted must be classified as such.
+
+CORE: ECOSYSTEM FUND ALLOCATION
+Proposals for how DAO funds should be utilized.
+
+CORE: ECOSYSTEM FUND ALLOCATION (RESUBMISSION)
+Resubmitted proposals for how DAO funds should be utilized.
+
+CORE: BRAND DECISION
+Proposals for anything the DAO attaches its name to, including projects and collaborations.
+
+CORE: BRAND DECISION (RESUBMISSION)
+Resubmitted proposals for anything the DAO attaches its name to, including projects and collaborations.
+
+PROCESS
+Proposals for making a change to a process or implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+
+PROCESS (RESUBMISSION)
+Resubmitted proposals for making a change to a process or implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+
+INFORMATIONAL
+Proposals for general guidelines or information for the community.
+
+INFORMATIONAL (RESUBMISSION)
+Resubmitted proposals for general guidelines or information for the community.
+
+PROPOSAL TEMPLATE
+A proposal typically includes:
+
+Abstract - Two or three sentences that summarize the proposal.
+Motivation - A statement on why the APE Community should implement the proposal.
+Rationale - An explanation of how the proposal aligns with the APE Community’s mission and guiding values.
+Key Terms (optional) - Definitions of any terms within the proposal that are unique to the proposal, new to the APE Community, and/or industry-specific.
+Specifications - A detailed breakdown of the platforms and technologies that will be used.
+Steps to Implement - The steps to implement the proposal, including associated costs, manpower, and other resources for each step where applicable.
+Timeline - Relevant timing details, including but not limited to start date, milestones, and completion dates.
+Overall Cost - The total cost to implement the proposal.
+The author can add additional fields to any template if necessary to fully communicate the intentions, specifics, and implications of the AIP Draft.
+
+Proposals that did not make it through the respective approval process and are being resubmitted should also include:
+
+Link to original proposal
+Reason it was not approved
+Changes that have been made and why it should now be approved
+The author can add additional fields to any template if necessary to fully communicate the changes made and the intentions, specifics, and implications of the resubmitted AIP Draft.
+
+PROPOSAL PHASES
+PHASE 1: AIP IDEA
+An AIP Idea is submitted as a post in Discourse and must receive moderator confirmation that it complies with DAO-approved guidelines before it appears to the community. The person or people submitting the AIP Idea will be referred to as the author or authors (please note that multiple members can work together on an AIP idea, but it should be submitted only once). The AIP idea informally gathers comments via Discourse for seven days. The author cannot edit the original post — if the author wants to propose changes to the original idea, they must do this via the comments.
+
+PHASE 2: AIP DRAFT
+Once the seven-day feedback window has passed and a moderator closes the Discourse topic, a moderator will send the author the proposal template and next steps for submission and voting. They may also suggest a proposal category, if not already specified in Discourse.
+
+The author will fill out the template, incorporating any Discourse feedback that helps the idea better serve the DAO. The author can add additional fields to the template if necessary to fully communicate the intentions, specifics, and implications of the AIP Draft. The moderator may also inform the author of incorrect or missing information that needs to be changed or clarifications that need to be made. If the author does not respond to those moderator requests within 30 days, the AIP Draft will be automatically rejected.
+
+When the moderator confirms an AIP Draft complies with DAO-approved guidelines, they assign a number to the AIP for identification purposes throughout the rest of the process. From this point on, the AIP is referred to as “AIP-#: (Name) - (Category)”. For example the first AIP is “AIP-1: Proposing the DAO - Process”.
+
+PHASE 3: AIP ANALYSIS REPORT
+The AIP Draft is reviewed by a project management team engaged by APE Foundation who will provide an AIP Analysis Report to ensure costs, steps to implement, legal considerations, third-party review requirements, potential conflicts of interests, and any further implications have been identified. Given that AIP authors may be submitting drafts with little to no resources, this service for the DAO community ensures that DAO members have enough information about proposals to make informed decisions when voting.
+
+PHASE 4: AIP MODERATION
+The AIP Draft + Analysis Report (DAR) Package is reviewed by a team of moderators and either approved or not approved based on whether it adheres to the DAO-approved guidelines. If approved, it becomes a Pending AIP and moves to Phase 5. If not approved, it is eligible for resubmission, except in cases of violation of the law or reasonable suspicion of fraud or other misleading information.
+
+PHASE 5: POST-MODERATION TAGGING
+Pending AIPs that have passed AIP Moderation are tagged as “Straight to Vote” or “Needs Administrative Review.”
+
+The “Straight to Vote” tag is given to a pending AIP whose costs, content, and implications are considered straightforward and of no risk to the well-being of the DAO. Any Pending AIP that is tagged as “Straight to Vote” will skip to Phase 7.
+
+The “Needs Administrative Review” tag is given to a pending AIP whose costs, content, or implications are considered complicated or a potential risk to the well-being of the DAO. Any Pending AIP that is tagged as “Needs Administrative Review” must go through Phase 6.
+
+PHASE 6: ADMINISTRATIVE REVIEW
+For Pending AIPs that have been tagged with “Needs Administrative Review,” the Board, serving in an administrative capacity, will determine whether clarification or action is required before moving a Pending AIP to Phase 7. If clarification or action is not needed, the Pending AIP is tagged as “Approved for Voting” and proceeds to Phase 7. If the Board decides to return a Pending AIP for further clarification or action, they must provide a clear explanation of why and tag it as either “Return for Clarification” or “Return for Reconstruction.”
+
+Reasons to tag as “Return for Clarification” may include but are not limited to:
+
+Cost to implement unclear/not able to be calculated
+Would use more than 5% of the DAO treasury
+Conflicts with another proposal
+Reasons to tag as “Return for Reconstruction” may include but are not limited to:
+
+Proposal is at odds with the mission/values of the DAO
+Proposal is at odds with the well-being of the DAO
+Violations of law, or against advice of counsel for APE Foundation
+Reasonable suspicion of fraud or other misleading information
+PHASE 7: LIVE AIP
+Drafts that have passed their respective approval processes will become Live AIPs on Snapshot during the next Weekly AIP Release, which is when new AIPs are released in batches Thursdays at 9PM ET. Once live on Snapshot, Live AIPs are open to voting until Weekly Voting Close, which is at 9PM ET on the Wednesday following their release. Moderators are the only ones that can post AIPs to Snapshot because they must confirm that each one has gone through the correct approvals process.
+
+PHASE 8: FINAL AIP
+If a Live AIP has not gotten any votes or is tied by the Vote Close Time, it will be tagged as “Stalled” and be eligible for Resubmission. In all other cases, Live AIPs are moved to one of two Final AIP categories. Rejected Final AIPs can be resubmitted via the appropriate Resubmission Template if the author contacts a moderator. Accepted Final AIPs move into Implementation.
+
+PHASE 9: IMPLEMENTATION
+For Accepted Final AIPs, implementation will begin based on the steps outlined in the AIP template. The project management team engaged by the APE Foundation is responsible for making sure this happens, but is not responsible for doing it themselves.
+
+PROPOSAL CONFLICTS
+If a suggested proposal directly conflicts with a proposal that is currently up for vote, the second proposal should not go for a vote until a decision is made on the first proposal to avoid approval of opposing requirements.
+
+A suggested proposal that directly conflicts with another approved proposal cannot go to vote for three months after the original proposal has been implemented to avoid wasting community assets.
+
+VOTING
+ApeCoin DAO’s consensus mechanism aims to make placing votes fair, transparent, and low-cost, so that ApeCoin holders can participate in the decision-making of the DAO.
+
+VOTING MECHANISM
+Snapshot was chosen as a voting tool that:
+
+doesn’t require gas payment
+ensures transparency
+expands governance participation to all holders of ApeCoin
+VOTING PROCESS
+Moderators post AIPs to Snapshot after ensuring that each one has gone through the correct approvals process. New AIPs are posted every week on Thursday at 9PM ET. This is when the six-day voting window opens as well.
+DAO members vote on Snapshot. One ApeCoin is equal to one vote. As votes cannot be divided into fractions and the total number of votes shouldn’t ever exceed the number of tokens minted, the number of votes will be rounded down if a fractional number of tokens is owned by the voter (i.e., 100.1 tokens will result in 100 votes, and so will 100.9 tokens). The voting options for a Live AIP are “In favor” and “Against.” Voting “In favor” means the voter is in favor of implementing the AIP exactly as-is. Voting “Against” means the vote is against implementing the AIP exactly as-is — you may vote “Against” to encourage the author to resubmit the AIP after making changes.
+The voting for each proposal in each weekly batch will be open for voting for six days, closing at 9PM ET on the following Wednesday.
+Proposals that receive a majority “In favor” vote are moved into implementation. Proposals that are rejected will have the chance to be resubmitted via the appropriate Resubmission Template if the author contacts a moderator to initiate this process. If by the Vote Close Time the Live AIP has not gotten any votes or is tied, it will be tagged as “Stalled” and be eligible for Resubmission.
+VOTING DELEGATION
+DAO members have the ability to delegate their vote.
+
+DAO members can delegate their vote to another DAO member that they consider to be a trusted subject matter expert.
+Voting delegation is the mechanism by which DAO members with tokens under initial lock-up will be able to vote.
+THE FUTURE OF APECOIN DAO
+Over time, ApeCoin DAO will transition the proposal and voting mechanisms into a full, on-chain platform in a form determined by the community. The DAO can do this by:
+
+Hiring DAO members to take care of administrative, project management, and moderation tasks to replace the company appointed
+Creating a community-steering committee
+Implementing on-chain voting
+Voting annually to elect members for the DAO’s Board (the initial Board is in place for a shorter term of six months)
+REFERENCE
+APECOIN DAO TERMINOLOGY
+AIP (APE Improvement Proposal) - a document proposing a new feature, project, activity, goal, piece of information, or change to any proposal that has already been implemented.
+AIP Idea - the first step in the process of creating an official AIP, which will be presented to the community for gathering informal feedback for a period of seven days.
+AIP Draft - the second step in the process of creating an official AIP, which can only be submitted after the original AIP idea has gathered feedback from the community for seven days in the proper channel. An AIP draft must be submitted directly to a moderator via predetermined AIP templates.
+AIP Template - the preset format for an AIP draft, which will vary slightly depending on the nature of the intended AIP.
+AIP Author - the DAO member responsible for beginning the APE Improvement Process, starting with presenting the idea to the community via the proper AIP idea process. The AIP author is responsible for incorporating relevant feedback, submitting the subsequent AIP draft via the proper AIP template to the moderator, and responding to questions or requests for clarifications from DAO members and moderators. Any ApeCoin holder can be an AIP author.
+AIP Categories - the predetermined classification system for organizing AIPs by their nature or intent. They are: Core Proposal, Ecosystem Fund Allocation Proposal (a subcategory of Core Proposal), Brand Decision Proposal (a subcategory of Core Proposal), Process Proposal, and Informational Proposal.
+Core Proposal - a proposal that would be considered the main activities of the DAO, with subcategories that can be expanded on over time via proposal submission.
+Ecosystem Fund Allocation Proposal - a proposal about how the Ecosystem Fund should be spent. A subcategory of Core Proposals.
+Brand Decision Proposal - a proposal about to whom the community wants to attach its name. This is different from an Ecosystem Fund Allocation Proposal in that it can have associated costs to implement but is not at its core a proposal about Ecosystem Fund Allocation. A subcategory of Core Proposals.
+Process Proposal - a proposal about making a change to a process or proposing an implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+Informational Proposal - a proposal that provides general guidelines or information to the community but does not propose a new feature.
+Resubmission Proposal - a proposal that was previously submitted but did not pass either due to initial rejection by moderators or the Board, or by not passing a vote. All proposal categories have a special template for resubmission that the author must link to the original proposal, clearly state why it did not pass, and clearly explain how the resubmission is different.
+AIP Analysis Report - a report conducted by a project management team engaged by the APE Foundation to ensure that all costs, steps to implement, legal considerations, third-party review requirements, potential conflicts of interests, and any further implications have been properly considered and identified. This is considered to be a service for the community given that AIP authors will be submitting drafts with little to no resources.
+APE Improvement Proposal Draft & Analysis Report (AIP DAR Package) - both the AIP Draft (submitted by the author) and the AIP Analysis Report (submitted by the project management team engaged by the APE Foundation) should be defined as a package after the analysis report is conducted, as they should only be considered together from that point on.
+AIP Moderation - the act of reviewing an AIP DAR Package to determine whether or not the AIP draft meets the predetermined and DAO-approved guidelines and therefore is eligible to move to the next step in the process. If an AIP DAR Package passes AIP Moderation, it becomes a Pending AIP.
+Pending AIP - the AIP status after AIP DAR, which is only reached if it passes AIP Moderation.
+Post-Moderation Tagging - the process of tagging all Pending AIPs that have successfully been through the AIP analysis report and AIP moderation phases. There are two tags given at this stage: 1) “Straight to Vote,” which is for any pending AIP where costs, content, and implications are considered to be straightforward and of no risk to the well-being of the DAO. 2) “Needs Administrative Review,” which is for any pending AIP with costs, content, or implications that are considered to be complicated or a potential risk to the well-being of the DAO and therefore must be reviewed by the Board of the DAO.
+Administrative Review - the process of evaluating pending AIPs that have been tagged as “Needs Administrative Review” to determine whether they should be halted or sent to vote by the community.
+Return for Clarification - a type of administrative classification that requires the AIP author to clarify certain information regarding the Pending AIP. This classification would be given in cases such as cost to implement being unclear, proposing to utilize a larger percentage of the Ecosystem Fund than is justified based on the value it would provide to the community, or being in direct conflict with an active AIP.
+Return for Reconstruction - a type of administrative classification that requires the proposer to restart the proposal submission process because the Pending AIP violates DAO-approved requirements, or in cases of violation of the law, reasonable suspicion of fraud or other misleading information, or the pending AIP being at odds with the mission, values, or well-being of the Foundation or DAO.
+Weekly AIP Release - every Thursday at 9PM ET, when all AIPs that are ready to go live are released together in a batch.
+Weekly Voting Close - when all AIPs in a Weekly AIP Release batch close for voting, which happens the following Wednesday at 9PM ET.
+Live AIP - an AIP that has passed all required approval stages and is launched for the community to vote on it. The voting options for a Live AIP are “In favor” and “Against.” Voting “In favor” means the voter is in favor of implementing the AIP exactly as-is. Voting “Against” means the voter is against implementing the AIP exactly as-is — voters may vote “Against” to encourage the author to resubmit the AIP after making changes.
+Final AIP - an AIP that has completed the voting process. There are two subcategories here: Accepted and Rejected.
+Implementation of Accepted AIP - the process of implementing an AIP that has been accepted by the community via a vote, based on the predetermined steps laid out in the Draft/Template and Analysis Report phases.
+GENERAL GUIDELINES
+Every year, there is a DAO-wide vote to determine which DAO members will serve on a special council on the APE Foundation (the DAO’s “Board”). The purpose of the Board is to administer DAO proposals and serve the vision of the community. This initial Board will only serve six months.
+A Board member may be removed and replaced prior to the term’s end pursuant to a majority vote of token holders.
+The total cost of implementation must be clear in order for a proposal to go to vote.
+DAO members must search past proposals to ensure any idea they intend to write a proposal for has not already been submitted.
+If a suggested proposal directly conflicts with a proposal that is currently up for vote, the second proposal should not go for a vote until a decision is made on the first proposal to avoid approval of opposing requirements.
+A suggested proposal that directly conflicts with another approved proposal cannot go to vote for three months after the original proposal has been implemented to avoid wasting community assets.
+Proposals will not be put up for a vote if they involve illegal activity, hate speech, pornographic material, or are at odds with the mission or values of the APE Foundation.
+
+
+
+
+
+Апекоин Дао Управление
+Общество апекоин регулирует себя через апекоин DAO, децентрализованную структуру управления, которая поддерживает фонд 
+экосистемного фонда. DAO следует за процессом предложения, чтобы проголосовать за то, как Фонд APE будет распространяться 
+Фондом APE для продвижения разнообразной и самоотверженной экосистемы.
+
+Это руководство по управлению является обзором процесса предложения. Это живой документ, который будет развиваться и 
+улучшаться с вкладом сообщества DAO.
+
+Членство
+Участие в представлении идеи, комментариях, представлении предложений и голосовании ограничено апекеновыми членами DAO. 
+Владение апекейном является единственным требованием для членства в DAO.
+
+Руководящие ценности
+Смелость: мы не уклоняемся от странного, жесткого или нового.
+Равенство: одна обезьяна равна одной обезьяне.
+Прозрачность: процессы и решения открыто разделяются с сообществом.
+Коллективная ответственность: мы оставляем все лучше, чем нашли это.
+Постоянство: успех - это Uryoboros, а не прямая линия.
+Каналы связи
+Веб -сайт Foundation Ape является центром DAO, который предоставляет интерфейс для обучения членов DAO о процессе управления и обеспечения легкого доступа к приведенным ниже каналам, чтобы упростить работу DAO и повысить его полезность.
+
+Дискурс является первой остановкой для всех предложений. Идея AIP (предложение об улучшении APE) представлена ​​в качестве должности в дискурсе и должна получить подтверждение от модератора, которое она соответствует руководящим принципам DA, прежде чем оно появится сообществу. Владельцы апекоин должны пройти процесс аутентификации кошелька, чтобы публиковать идеи или дать отзыв идеям с помощью комментариев.
+
+Снимок используется для голосования. Проекты предложений, которые прошли их соответствующие процессы одобрения, становятся доступными для голосования на снимке. Владельцы апекейна должны пройти процесс аутентификации кошелька для голосования.
+
+Процесс предложения
+Apecoin Dao запускает свое управление под руководством сообщества посредством официального процесса предложений, основанного на том, что было реализовано и проверено с течением времени системой Ethereum EIP.
+
+Категории предложений
+Существуют три основные категории, которые AIP (предложение по улучшению обезьяны) может подпадать под: основной, процесс или информационный.Основные предложения имеют две подкатегории, брендовые решения и распределение фондов экосистем.Предложения, которые повторно разбираются, должны быть классифицированы как таковые.
+
+Ядро: распределение фондов экосистем
+Предложения о том, как следует использовать средства DAO.
+
+Ядро: распределение фондов экосистем (повторное повторное управление)
+Повторные предложения о том, как следует использовать средства DAO.
+
+Ядро: решение бренда
+Предложения для всего, к которому DAO придает свое название, включая проекты и сотрудничество.
+
+Ядро: решение бренда (повторное повторное управление)
+Повторные предложения для всего, к которому DAO прикрепляет свое название, включая проекты и сотрудничество.
+
+PROCESS
+Proposals for making a change to a process or implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+
+PROCESS (RESUBMISSION)
+Resubmitted proposals for making a change to a process or implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+
+INFORMATIONAL
+Proposals for general guidelines or information for the community.
+
+INFORMATIONAL (RESUBMISSION)
+Resubmitted proposals for general guidelines or information for the community.
+
+PROPOSAL TEMPLATE
+A proposal typically includes:
+
+Abstract - Two or three sentences that summarize the proposal.
+Motivation - A statement on why the APE Community should implement the proposal.
+Rationale - An explanation of how the proposal aligns with the APE Community’s mission and guiding values.
+Key Terms (optional) - Definitions of any terms within the proposal that are unique to the proposal, new to the APE Community, and/or industry-specific.
+Specifications - A detailed breakdown of the platforms and technologies that will be used.
+Steps to Implement - The steps to implement the proposal, including associated costs, manpower, and other resources for each step where applicable.
+Timeline - Relevant timing details, including but not limited to start date, milestones, and completion dates.
+Overall Cost - The total cost to implement the proposal.
+The author can add additional fields to any template if necessary to fully communicate the intentions, specifics, and implications of the AIP Draft.
+
+Proposals that did not make it through the respective approval process and are being resubmitted should also include:
+
+Link to original proposal
+Reason it was not approved
+Changes that have been made and why it should now be approved
+The author can add additional fields to any template if necessary to fully communicate the changes made and the intentions, specifics, and implications of the resubmitted AIP Draft.
+
+PROPOSAL PHASES
+PHASE 1: AIP IDEA
+An AIP Idea is submitted as a post in Discourse and must receive moderator confirmation that it complies with DAO-approved guidelines before it appears to the community. The person or people submitting the AIP Idea will be referred to as the author or authors (please note that multiple members can work together on an AIP idea, but it should be submitted only once). The AIP idea informally gathers comments via Discourse for seven days. The author cannot edit the original post — if the author wants to propose changes to the original idea, they must do this via the comments.
+
+PHASE 2: AIP DRAFT
+Once the seven-day feedback window has passed and a moderator closes the Discourse topic, a moderator will send the author the proposal template and next steps for submission and voting. They may also suggest a proposal category, if not already specified in Discourse.
+
+The author will fill out the template, incorporating any Discourse feedback that helps the idea better serve the DAO. The author can add additional fields to the template if necessary to fully communicate the intentions, specifics, and implications of the AIP Draft. The moderator may also inform the author of incorrect or missing information that needs to be changed or clarifications that need to be made. If the author does not respond to those moderator requests within 30 days, the AIP Draft will be automatically rejected.
+
+When the moderator confirms an AIP Draft complies with DAO-approved guidelines, they assign a number to the AIP for identification purposes throughout the rest of the process. From this point on, the AIP is referred to as “AIP-#: (Name) - (Category)”. For example the first AIP is “AIP-1: Proposing the DAO - Process”.
+
+PHASE 3: AIP ANALYSIS REPORT
+The AIP Draft is reviewed by a project management team engaged by APE Foundation who will provide an AIP Analysis Report to ensure costs, steps to implement, legal considerations, third-party review requirements, potential conflicts of interests, and any further implications have been identified. Given that AIP authors may be submitting drafts with little to no resources, this service for the DAO community ensures that DAO members have enough information about proposals to make informed decisions when voting.
+
+PHASE 4: AIP MODERATION
+The AIP Draft + Analysis Report (DAR) Package is reviewed by a team of moderators and either approved or not approved based on whether it adheres to the DAO-approved guidelines. If approved, it becomes a Pending AIP and moves to Phase 5. If not approved, it is eligible for resubmission, except in cases of violation of the law or reasonable suspicion of fraud or other misleading information.
+
+PHASE 5: POST-MODERATION TAGGING
+Pending AIPs that have passed AIP Moderation are tagged as “Straight to Vote” or “Needs Administrative Review.”
+
+The “Straight to Vote” tag is given to a pending AIP whose costs, content, and implications are considered straightforward and of no risk to the well-being of the DAO. Any Pending AIP that is tagged as “Straight to Vote” will skip to Phase 7.
+
+The “Needs Administrative Review” tag is given to a pending AIP whose costs, content, or implications are considered complicated or a potential risk to the well-being of the DAO. Any Pending AIP that is tagged as “Needs Administrative Review” must go through Phase 6.
+
+PHASE 6: ADMINISTRATIVE REVIEW
+For Pending AIPs that have been tagged with “Needs Administrative Review,” the Board, serving in an administrative capacity, will determine whether clarification or action is required before moving a Pending AIP to Phase 7. If clarification or action is not needed, the Pending AIP is tagged as “Approved for Voting” and proceeds to Phase 7. If the Board decides to return a Pending AIP for further clarification or action, they must provide a clear explanation of why and tag it as either “Return for Clarification” or “Return for Reconstruction.”
+
+Reasons to tag as “Return for Clarification” may include but are not limited to:
+
+Cost to implement unclear/not able to be calculated
+Would use more than 5% of the DAO treasury
+Conflicts with another proposal
+Reasons to tag as “Return for Reconstruction” may include but are not limited to:
+
+Proposal is at odds with the mission/values of the DAO
+Proposal is at odds with the well-being of the DAO
+Violations of law, or against advice of counsel for APE Foundation
+Reasonable suspicion of fraud or other misleading information
+PHASE 7: LIVE AIP
+Drafts that have passed their respective approval processes will become Live AIPs on Snapshot during the next Weekly AIP Release, which is when new AIPs are released in batches Thursdays at 9PM ET. Once live on Snapshot, Live AIPs are open to voting until Weekly Voting Close, which is at 9PM ET on the Wednesday following their release. Moderators are the only ones that can post AIPs to Snapshot because they must confirm that each one has gone through the correct approvals process.
+
+PHASE 8: FINAL AIP
+If a Live AIP has not gotten any votes or is tied by the Vote Close Time, it will be tagged as “Stalled” and be eligible for Resubmission. In all other cases, Live AIPs are moved to one of two Final AIP categories. Rejected Final AIPs can be resubmitted via the appropriate Resubmission Template if the author contacts a moderator. Accepted Final AIPs move into Implementation.
+
+PHASE 9: IMPLEMENTATION
+For Accepted Final AIPs, implementation will begin based on the steps outlined in the AIP template. The project management team engaged by the APE Foundation is responsible for making sure this happens, but is not responsible for doing it themselves.
+
+PROPOSAL CONFLICTS
+If a suggested proposal directly conflicts with a proposal that is currently up for vote, the second proposal should not go for a vote until a decision is made on the first proposal to avoid approval of opposing requirements.
+
+A suggested proposal that directly conflicts with another approved proposal cannot go to vote for three months after the original proposal has been implemented to avoid wasting community assets.
+
+VOTING
+ApeCoin DAO’s consensus mechanism aims to make placing votes fair, transparent, and low-cost, so that ApeCoin holders can participate in the decision-making of the DAO.
+
+VOTING MECHANISM
+Snapshot was chosen as a voting tool that:
+
+doesn’t require gas payment
+ensures transparency
+expands governance participation to all holders of ApeCoin
+VOTING PROCESS
+Moderators post AIPs to Snapshot after ensuring that each one has gone through the correct approvals process. New AIPs are posted every week on Thursday at 9PM ET. This is when the six-day voting window opens as well.
+DAO members vote on Snapshot. One ApeCoin is equal to one vote. As votes cannot be divided into fractions and the total number of votes shouldn’t ever exceed the number of tokens minted, the number of votes will be rounded down if a fractional number of tokens is owned by the voter (i.e., 100.1 tokens will result in 100 votes, and so will 100.9 tokens). The voting options for a Live AIP are “In favor” and “Against.” Voting “In favor” means the voter is in favor of implementing the AIP exactly as-is. Voting “Against” means the vote is against implementing the AIP exactly as-is — you may vote “Against” to encourage the author to resubmit the AIP after making changes.
+The voting for each proposal in each weekly batch will be open for voting for six days, closing at 9PM ET on the following Wednesday.
+Proposals that receive a majority “In favor” vote are moved into implementation. Proposals that are rejected will have the chance to be resubmitted via the appropriate Resubmission Template if the author contacts a moderator to initiate this process. If by the Vote Close Time the Live AIP has not gotten any votes or is tied, it will be tagged as “Stalled” and be eligible for Resubmission.
+VOTING DELEGATION
+DAO members have the ability to delegate their vote.
+
+DAO members can delegate their vote to another DAO member that they consider to be a trusted subject matter expert.
+Voting delegation is the mechanism by which DAO members with tokens under initial lock-up will be able to vote.
+THE FUTURE OF APECOIN DAO
+Over time, ApeCoin DAO will transition the proposal and voting mechanisms into a full, on-chain platform in a form determined by the community. The DAO can do this by:
+
+Hiring DAO members to take care of administrative, project management, and moderation tasks to replace the company appointed
+Creating a community-steering committee
+Implementing on-chain voting
+Voting annually to elect members for the DAO’s Board (the initial Board is in place for a shorter term of six months)
+REFERENCE
+APECOIN DAO TERMINOLOGY
+AIP (APE Improvement Proposal) - a document proposing a new feature, project, activity, goal, piece of information, or change to any proposal that has already been implemented.
+AIP Idea - the first step in the process of creating an official AIP, which will be presented to the community for gathering informal feedback for a period of seven days.
+AIP Draft - the second step in the process of creating an official AIP, which can only be submitted after the original AIP idea has gathered feedback from the community for seven days in the proper channel. An AIP draft must be submitted directly to a moderator via predetermined AIP templates.
+AIP Template - the preset format for an AIP draft, which will vary slightly depending on the nature of the intended AIP.
+AIP Author - the DAO member responsible for beginning the APE Improvement Process, starting with presenting the idea to the community via the proper AIP idea process. The AIP author is responsible for incorporating relevant feedback, submitting the subsequent AIP draft via the proper AIP template to the moderator, and responding to questions or requests for clarifications from DAO members and moderators. Any ApeCoin holder can be an AIP author.
+AIP Categories - the predetermined classification system for organizing AIPs by their nature or intent. They are: Core Proposal, Ecosystem Fund Allocation Proposal (a subcategory of Core Proposal), Brand Decision Proposal (a subcategory of Core Proposal), Process Proposal, and Informational Proposal.
+Core Proposal - a proposal that would be considered the main activities of the DAO, with subcategories that can be expanded on over time via proposal submission.
+Ecosystem Fund Allocation Proposal - a proposal about how the Ecosystem Fund should be spent. A subcategory of Core Proposals.
+Brand Decision Proposal - a proposal about to whom the community wants to attach its name. This is different from an Ecosystem Fund Allocation Proposal in that it can have associated costs to implement but is not at its core a proposal about Ecosystem Fund Allocation. A subcategory of Core Proposals.
+Process Proposal - a proposal about making a change to a process or proposing an implementation. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment of the DAO or Foundation.
+Informational Proposal - a proposal that provides general guidelines or information to the community but does not propose a new feature.
+Resubmission Proposal - a proposal that was previously submitted but did not pass either due to initial rejection by moderators or the Board, or by not passing a vote. All proposal categories have a special template for resubmission that the author must link to the original proposal, clearly state why it did not pass, and clearly explain how the resubmission is different.
+AIP Analysis Report - a report conducted by a project management team engaged by the APE Foundation to ensure that all costs, steps to implement, legal considerations, third-party review requirements, potential conflicts of interests, and any further implications have been properly considered and identified. This is considered to be a service for the community given that AIP authors will be submitting drafts with little to no resources.
+APE Improvement Proposal Draft & Analysis Report (AIP DAR Package) - both the AIP Draft (submitted by the author) and the AIP Analysis Report (submitted by the project management team engaged by the APE Foundation) should be defined as a package after the analysis report is conducted, as they should only be considered together from that point on.
+AIP Moderation - the act of reviewing an AIP DAR Package to determine whether or not the AIP draft meets the predetermined and DAO-approved guidelines and therefore is eligible to move to the next step in the process. If an AIP DAR Package passes AIP Moderation, it becomes a Pending AIP.
+Pending AIP - the AIP status after AIP DAR, which is only reached if it passes AIP Moderation.
+Post-Moderation Tagging - the process of tagging all Pending AIPs that have successfully been through the AIP analysis report and AIP moderation phases. There are two tags given at this stage: 1) “Straight to Vote,” which is for any pending AIP where costs, content, and implications are considered to be straightforward and of no risk to the well-being of the DAO. 2) “Needs Administrative Review,” which is for any pending AIP with costs, content, or implications that are considered to be complicated or a potential risk to the well-being of the DAO and therefore must be reviewed by the Board of the DAO.
+Administrative Review - the process of evaluating pending AIPs that have been tagged as “Needs Administrative Review” to determine whether they should be halted or sent to vote by the community.
+Return for Clarification - a type of administrative classification that requires the AIP author to clarify certain information regarding the Pending AIP. This classification would be given in cases such as cost to implement being unclear, proposing to utilize a larger percentage of the Ecosystem Fund than is justified based on the value it would provide to the community, or being in direct conflict with an active AIP.
+Return for Reconstruction - a type of administrative classification that requires the proposer to restart the proposal submission process because the Pending AIP violates DAO-approved requirements, or in cases of violation of the law, reasonable suspicion of fraud or other misleading information, or the pending AIP being at odds with the mission, values, or well-being of the Foundation or DAO.
+Weekly AIP Release - every Thursday at 9PM ET, when all AIPs that are ready to go live are released together in a batch.
+Weekly Voting Close - when all AIPs in a Weekly AIP Release batch close for voting, which happens the following Wednesday at 9PM ET.
+Live AIP - an AIP that has passed all required approval stages and is launched for the community to vote on it. The voting options for a Live AIP are “In favor” and “Against.” Voting “In favor” means the voter is in favor of implementing the AIP exactly as-is. Voting “Against” means the voter is against implementing the AIP exactly as-is — voters may vote “Against” to encourage the author to resubmit the AIP after making changes.
+Final AIP - an AIP that has completed the voting process. There are two subcategories here: Accepted and Rejected.
+Implementation of Accepted AIP - the process of implementing an AIP that has been accepted by the community via a vote, based on the predetermined steps laid out in the Draft/Template and Analysis Report phases.
+GENERAL GUIDELINES
+Every year, there is a DAO-wide vote to determine which DAO members will serve on a special council on the APE Foundation (the DAO’s “Board”). The purpose of the Board is to administer DAO proposals and serve the vision of the community. This initial Board will only serve six months.
+A Board member may be removed and replaced prior to the term’s end pursuant to a majority vote of token holders.
+The total cost of implementation must be clear in order for a proposal to go to vote.
+DAO members must search past proposals to ensure any idea they intend to write a proposal for has not already been submitted.
+If a suggested proposal directly conflicts with a proposal that is currently up for vote, the second proposal should not go for a vote until a decision is made on the first proposal to avoid approval of opposing requirements.
+A suggested proposal that directly conflicts with another approved proposal cannot go to vote for three months after the original proposal has been implemented to avoid wasting community assets.
+Proposals will not be put up for a vote if they involve illegal activity, hate speech, pornographic material, or are at odds with the mission or values of the APE Foundation.
