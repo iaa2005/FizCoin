@@ -118,14 +118,14 @@ $(document).ready(async function() {
     async function load() {
         await $("#text-page").load("/text.html")
         await $(".words-list").load("/words.html")
-        await $("footer").load("/footer.html")
+        await $(".footer").load("/footer.html")
     }
 
     load().then(function () {
         document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
         document.getElementById("about").addEventListener("click", function () { aboutPage(); })
         document.getElementById("terms").addEventListener("click", function () { terms(); })
-        document.getElementById("governance").addEventListener("click", function () { governance() })
+        document.getElementById("governance").addEventListener("click", function () { governance(); })
         document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
 
         if (link === "/about" || link === "/about/" || link === "/about/index.html") {
