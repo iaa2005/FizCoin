@@ -501,6 +501,8 @@ tbody, .add-token-text, p, pre, li {
         align-items: flex-start;
         flex-direction: column;
         gap: 8px;
+        font-size: 14px;
+        font-weight: 400;
     }
     .button-ex {
         margin-top: 20px;
