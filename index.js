@@ -121,15 +121,40 @@ $(document).ready(async function() {
     await $.get("/header.html", function (data) {
         $(".header").append(data)
     })
+    await $.get("/mobile-menu.html", function (data) {
+        $(".mobile-menu").append(data)
+    })
     await $(".words-list").load("/words.html")
     await $("#text-page").load("/text.html")
 
+    function close_menu() {
+        $(".close-button").css("display", "none");
+        $(".open-button").css("display", "block");
+        $(".mobile-menu").removeClass("open");
+    }
 
-    await document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); })
+    await document.getElementById("fizcoin").addEventListener("click", function () { mainPage(); close_menu(); })
     await document.getElementById("about").addEventListener("click", function () { aboutPage(); })
     await document.getElementById("governance").addEventListener("click", function () { governance(); })
     await document.getElementById("buy-sell").addEventListener("click", function () { buySell(); })
     await document.getElementById("terms").addEventListener("click", function () { terms(); })
+
+    await document.getElementById("about-mobile").addEventListener("click", function () { aboutPage(); close_menu(); })
+    await document.getElementById("governance-mobile").addEventListener("click", function () { governance(); close_menu(); })
+    await document.getElementById("buy-sell-mobile").addEventListener("click", function () { buySell(); close_menu(); })
+    await document.getElementById("terms-mobile").addEventListener("click", function () { terms(); close_menu(); })
+
+    await document.getElementById("open-button").addEventListener("click", function () {
+        $(".open-button").css("display", "none");
+        $(".close-button").css("display", "block");
+        $(".mobile-menu").addClass("open");
+    })
+
+    await document.getElementById("close-button").addEventListener("click", function () {
+        $(".close-button").css("display", "none");
+        $(".open-button").css("display", "block");
+        $(".mobile-menu").removeClass("open");
+    })
 
     if (link === "/about" || link === "/about/" || link === "/about/index.html") {
         console.log("about");
